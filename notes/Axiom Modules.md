@@ -11,7 +11,7 @@
 ```
 
 ### FFUF Zips
-```
+```json
 [{
         "command":"/home/op/go/bin/ffuf -w _wordlist_ -u _target_/FUZZ -of csv -o _output_/_cleantarget_ -ac -mr 'application/x-zip-compressed'",
         "wordlist":"/home/op/zips.txt",
@@ -21,7 +21,7 @@
 ```
 
 ### FFUF Swagger
-```
+```json
 [{
         "command":"/home/op/go/bin/ffuf -w _wordlist_ -u _target_/FUZZ -of csv -o _output_/_cleantarget_ -ac -mr 'SwaggerUIBundle'",
         "wordlist":"/home/op/lists/seclists/Discovery/Web-Content/raft-large-files.txt",
