@@ -1,4 +1,4 @@
-# BugBounty - Simple Reconnaissance
+# Simple Reconnaissance
 
 * https://github.com/projectdiscovery/subfinder
 * https://github.com/projectdiscovery/dnsx
