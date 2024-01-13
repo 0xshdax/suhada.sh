@@ -12,3 +12,7 @@ Java.perform(function() {
     };
 });
 ```
+
+```
+$ frida -U -l scriptname.js -f com.x.uat
+```
