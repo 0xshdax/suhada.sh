@@ -80,6 +80,15 @@ body {
     border-radius: 50%;
 }
 
+.achievement ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievement li {
+    margin: 22px 22px;
+}
+
 li.active {
     background-color: #3d3737;
 }
